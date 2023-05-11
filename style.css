@@ -1,8 +1,35 @@
-.header{
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
     
+}
+header{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
     height: 70px;
+    background-color: indianred;
 }
-.logo{
-    text-align: left;
+nav ul{
+    display: flex;
+    list-style: none;
+    
 }
-nav-button::after
+nav a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+
+}
+nav li{
+    margin-left: 20px;
+}
+a:hover{
+    color: blue;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
